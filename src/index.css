@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.containersflex{
+  display:flex;
+  flex-wrap: wrap;
+}
+.leftcontainer{
+  width:30%;
+  /* border:1px solid black; */
+  border-right: 1px solid black;
+}
+
+.rightcontainer{
+  padding:20px 0 10px 0;
+  width:70%;
+  /* border:1px solid black; */
+}
+.card{
+  width:25rem;
+  margin: 25px;
+}
+.selectform{
+  width:100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  padding:5px;
+}
+
+
+
+.incomeexpense{
+  display:flex;
+  justify-content: space-evenly;
+
+}
+
+.recenttranaction{
+  padding:25px;
+}
+.credit{
+  border-radius: 5px;
+}
+
+.eamount{
+  font-size: larger;
+  font-weight: bolder;
+  
+}
+.ecategory{
+  position: absolute;
+  right:75px;
+  
+}
+
+.del-button{
+  position: absolute;
+  right:10px;
+  bottom:9px;
+ 
+  
+
+}
