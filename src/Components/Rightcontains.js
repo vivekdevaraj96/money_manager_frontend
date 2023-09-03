@@ -1,6 +1,6 @@
 
 
-import React, {useEffect, useState } from "react";
+import React, { useState } from "react";
 
 const Rightcontains = (props) => {
   var [selectedyear, setselectedyear] = useState("");
@@ -10,7 +10,7 @@ const Rightcontains = (props) => {
   var [somedata,setsomedata]=useState([]);
 
  
-  var  e=""
+
   let year = [2022, 2023];
   let month = [
     "Jan",
